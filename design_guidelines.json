@@ -1,0 +1,97 @@
+{
+  "theme": "Light",
+  "archetype": "1 (Organic & Earthy)",
+  "language": "Romanian",
+  "colors": {
+    "background": "#FAFAFA",
+    "foreground": "#1C1917",
+    "primary": "#047857",
+    "primary_foreground": "#FFFFFF",
+    "secondary": "#E0F2FE",
+    "secondary_foreground": "#064E3B",
+    "accent": "#A16207",
+    "accent_foreground": "#FFFFFF",
+    "sage": "#86EFAC",
+    "earth": "#78350F",
+    "muted": "#F3F4F6",
+    "muted_foreground": "#4B5563",
+    "border": "#E5E7EB"
+  },
+  "typography": {
+    "font_family_headings": "Outfit, sans-serif",
+    "font_family_body": "Manrope, sans-serif",
+    "h1": "text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-none font-bold",
+    "h2": "text-2xl sm:text-3xl lg:text-4xl tracking-tight leading-tight font-semibold",
+    "h3": "text-xl sm:text-2xl tracking-tight font-medium",
+    "body": "text-base leading-relaxed text-muted-foreground",
+    "button": "text-base font-medium tracking-wide"
+  },
+  "spacing_and_layout": {
+    "general": "Generous spacing philosophy, use p-8 or p-12 for containers.",
+    "bento_grid": "Use grid-cols-1 md:grid-cols-8 lg:grid-cols-12 with wide gaps (gap-8 to gap-12).",
+    "bento_card": "Internal padding p-6 or p-8. Do not exceed 80vh for mobile image heights.",
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "hero_overlay": "bg-black/40 or bg-gradient-to-r from-black/70 via-black/40 to-transparent for text contrast."
+  },
+  "components": {
+    "navbar": "Glassmorphism (backdrop-blur-xl bg-white/70) with 1px border-b border-border/40. Fixed top z-50.",
+    "buttons": "Shadcn UI base. Primary: bg-primary text-white hover:bg-primary/90. Secondary: bg-white text-primary border border-primary hover:bg-muted.",
+    "cards": "Flat background (bg-white), 1px subtle border (border-border), no default shadow. Hover: -translate-y-1, shadow-lg, border-border darkens.",
+    "estimator_form": "Shadcn UI cards, distinct inputs, clear data-testid on all interactive elements.",
+    "before_after_slider": "Functional slider component overlaid on two images, standard input range or customized thumb.",
+    "multi_step_booking": "Step indicators, Shadcn form, calendar for date/time picker, clean transitions between steps.",
+    "dashboard_table": "Shadcn table, crisp edges, subtle roundness (max 8px radius)."
+  },
+  "icons": {
+    "library": "lucide-react",
+    "usage": "Use stroke-width 1.5 or 2 for clarity. Color: primary or muted-foreground based on context."
+  },
+  "animations": {
+    "hover": "transition: transform 0.2s ease, opacity 0.2s ease, box-shadow 0.2s ease.",
+    "reveal": "Use framer-motion for simple fade-up on scroll (opacity 0 to 1, y 20 to 0) for grid items."
+  },
+  "media_urls": {
+    "hero_background": {
+      "url": "https://images.unsplash.com/photo-1594498653385-d5172c532c00?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwxfHxiYWNreWFyZCUyMGdhcmRlbnxlbnwwfHx8fDE3ODExMDU5NjN8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Green grass field with trees, perfectly suited for the hero background."
+    },
+    "service_lawn": {
+      "url": "https://images.pexels.com/photos/8143668/pexels-photo-8143668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Luxury estate with manicured lawn."
+    },
+    "service_irrigation": {
+      "url": "https://images.pexels.com/photos/17765487/pexels-photo-17765487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Sprinkler irrigating a green field."
+    },
+    "service_planting": {
+      "url": "https://images.pexels.com/photos/5029853/pexels-photo-5029853.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "People planting tree saplings."
+    },
+    "service_maintenance": {
+      "url": "https://images.pexels.com/photos/9816773/pexels-photo-9816773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Gardener watering blooming plants outdoors."
+    },
+    "portfolio_before": {
+      "url": "https://images.unsplash.com/photo-1614587477607-79563e3dd0d0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwxfHxkaXJ0JTIwZ3JvdW5kfGVufDB8fHx8MTc4MTEwNTk3MHww&ixlib=rb-4.1.0&q=85",
+      "description": "Brown dried leaves on dirt ground."
+    },
+    "portfolio_after": {
+      "url": "https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwyfHxiYWNreWFyZCUyMGdhcmRlbnxlbnwwfHx8fDE3ODExMDU5NjN8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Beautiful green plants."
+    }
+  },
+  "instructions_to_main_agent": [
+    "Strictly use Romanian text throughout the UI.",
+    "Ensure ALL interactive elements (buttons, links, form inputs) have a data-testid attribute.",
+    "Do NOT use 'Inter' for headings. Use 'Outfit' for headings and 'Manrope' for body.",
+    "Never use purely transparent headers over hero images; apply glassmorphism.",
+    "Use pure HTML + Tailwind for structural layouts, but strictly Shadcn UI components for interactivity (Forms, Tabs, Modals).",
+    "Follow 'Organic & Earthy' theme: Avoid neon/cyberpunk styles. Use the provided earthy color palette.",
+    "Implement the before/after slider correctly with an input[type='range'] over absolute positioned images.",
+    "The multi-step scheduling system must validate step-by-step.",
+    "The Cost Estimator must dynamically update price as surface area and checkboxes change.",
+    "In the Admin Dashboard, appointments table must have status badges and toggling (e.g. Pending -> Confirmed).",
+    "Use `lucide-react` for icons.",
+    "You have .js files not .tsx files, so strictly use JavaScript/JSX and avoid TypeScript types or interfaces."
+  ]
+}
