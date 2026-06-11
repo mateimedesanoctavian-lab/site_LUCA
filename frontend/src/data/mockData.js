@@ -60,6 +60,22 @@ export const PORTFOLIO = [
     before: "https://customer-assets.emergentagent.com/job_garden-booking-14/artifacts/k7331kkm_WhatsApp%20Image%202026-06-11%20at%2021.04.19.jpeg",
     after: "https://customer-assets.emergentagent.com/job_garden-booking-14/artifacts/1hyv5oh7_WhatsApp%20Image%202026-06-11%20at%2021.04.18.jpeg",
   },
+  {
+    id: 3,
+    title: "Amenajare completă curte cu plantări decorative",
+    location: "Cartier rezidențial, Oradea",
+    surface: 380,
+    before: "https://customer-assets.emergentagent.com/job_garden-booking-14/artifacts/ux20riz5_WhatsApp%20Image%202026-06-11%20at%2020.54.50%20%281%29.jpeg",
+    after: "https://customer-assets.emergentagent.com/job_garden-booking-14/artifacts/ev6asw5o_WhatsApp%20Image%202026-06-11%20at%2020.54.50.jpeg",
+  },
+  {
+    id: 4,
+    title: "Grădină modernă cu alei pavate și plantări",
+    location: "Curte privată, Arad",
+    surface: 350,
+    before: "https://customer-assets.emergentagent.com/job_garden-booking-14/artifacts/ziszy6io_WhatsApp%20Image%202026-06-11%20at%2020.53.08.jpeg",
+    after: "https://customer-assets.emergentagent.com/job_garden-booking-14/artifacts/ktn52bnh_WhatsApp%20Image%202026-06-11%20at%2020.53.06.jpeg",
+  },
 ];
 
 export const INITIAL_APPOINTMENTS = [
