@@ -13,8 +13,8 @@ export const Hero = () => {
     >
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1594498653385-d5172c532c00?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwxfHxiYWNreWFyZCUyMGdhcmRlbnxlbnwwfHx8fDE3ODExMDU5NjN8MA&ixlib=rb-4.1.0&q=85"
-          alt="Grădină verde"
+          src="https://customer-assets.emergentagent.com/job_garden-booking-14/artifacts/0hga66ev_WhatsApp%20Image%202026-06-11%20at%2021.09.06.jpeg"
+          alt="Grădină amenajată cu piscină și măslini"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/20"></div>
