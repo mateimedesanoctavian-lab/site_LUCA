@@ -46,27 +46,19 @@ export const CALCULATOR_OPTIONS = [
 export const PORTFOLIO = [
   {
     id: 1,
-    title: "Curte din Pipera transformată",
-    location: "București, Sector 1",
-    surface: 320,
-    before: "https://images.unsplash.com/photo-1614587477607-79563e3dd0d0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwxfHxkaXJ0JTIwZ3JvdW5kfGVufDB8fHx8MTc4MTEwNTk3MHww&ixlib=rb-4.1.0&q=85",
-    after: "https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwyfHxiYWNreWFyZCUyMGdhcmRlbnxlbnwwfHx8fDE3ODExMDU5NjN8MA&ixlib=rb-4.1.0&q=85",
+    title: "Gazon artificial pe pantă cu sistem irigații",
+    location: "Reședință privată, Cluj",
+    surface: 280,
+    before: "https://customer-assets.emergentagent.com/job_garden-booking-14/artifacts/1hyv5oh7_WhatsApp%20Image%202026-06-11%20at%2021.04.18.jpeg",
+    after: "https://customer-assets.emergentagent.com/job_garden-booking-14/artifacts/74f3dxbj_WhatsApp%20Image%202026-06-11%20at%2021.04.17.jpeg",
   },
   {
     id: 2,
-    title: "Grădină modernă în Otopeni",
-    location: "Otopeni, Ilfov",
-    surface: 480,
-    before: "https://images.unsplash.com/photo-1614587477607-79563e3dd0d0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwxfHxkaXJ0JTIwZ3JvdW5kfGVufDB8fHx8MTc4MTEwNTk3MHww&ixlib=rb-4.1.0&q=85",
-    after: "https://images.pexels.com/photos/8143668/pexels-photo-8143668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  },
-  {
-    id: 3,
-    title: "Oază verde în Cluj-Napoca",
-    location: "Cluj-Napoca, Cluj",
-    surface: 250,
-    before: "https://images.unsplash.com/photo-1614587477607-79563e3dd0d0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwxfHxkaXJ0JTIwZ3JvdW5kfGVufDB8fHx8MTc4MTEwNTk3MHww&ixlib=rb-4.1.0&q=85",
-    after: "https://images.pexels.com/photos/9816773/pexels-photo-9816773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    title: "Amenajare gazon natural cu sistem irigații",
+    location: "Curte privată, Sibiu",
+    surface: 420,
+    before: "https://customer-assets.emergentagent.com/job_garden-booking-14/artifacts/k7331kkm_WhatsApp%20Image%202026-06-11%20at%2021.04.19.jpeg",
+    after: "https://customer-assets.emergentagent.com/job_garden-booking-14/artifacts/zld98nfh_WhatsApp%20Image%202026-06-11%20at%2021.04.20.jpeg",
   },
 ];
 
