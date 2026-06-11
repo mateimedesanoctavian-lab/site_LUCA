@@ -6,7 +6,7 @@ export const SERVICES = [
     icon: "Sprout",
     title: "Rulouri de gazon și însămânțare",
     description: "Instalăm rulouri premium și efectuăm însămânțare profesională pentru un gazon dens și uniform.",
-    image: "https://images.pexels.com/photos/8143668/pexels-photo-8143668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    image: "https://customer-assets.emergentagent.com/job_garden-booking-14/artifacts/9puct7c4_483817491_2699814736870405_4439417615450937896_n.jpg",
     pricePerSqm: 25,
   },
   {
@@ -14,7 +14,7 @@ export const SERVICES = [
     icon: "Droplets",
     title: "Sisteme automatizate de irigații",
     description: "Proiectare și montaj sisteme inteligente de irigații, cu programare automată și senzori de umiditate.",
-    image: "https://images.pexels.com/photos/17765487/pexels-photo-17765487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    image: "https://customer-assets.emergentagent.com/job_garden-booking-14/artifacts/ofd9suxf_505091160_2785284988323379_769782273754640207_n.jpg",
     pricePerSqm: 18,
   },
   {
@@ -22,7 +22,7 @@ export const SERVICES = [
     icon: "TreePine",
     title: "Plantări pomi, arbuști și flori",
     description: "Selecție și plantare profesională a pomilor decorativi, arbuștilor și florilor pentru fiecare anotimp.",
-    image: "https://images.pexels.com/photos/5029853/pexels-photo-5029853.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    image: "https://customer-assets.emergentagent.com/job_garden-booking-14/artifacts/wqwrh6co_487363856_2711129499072262_1226877318252158460_n.jpg",
     pricePerSqm: 12,
   },
   {
@@ -30,7 +30,7 @@ export const SERVICES = [
     icon: "Scissors",
     title: "Întreținere și toaletare periodică",
     description: "Contracte de mentenanță lunară: tuns gazon, toaletare arbuști, fertilizare și combaterea dăunătorilor.",
-    image: "https://images.pexels.com/photos/9816773/pexels-photo-9816773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    image: "https://customer-assets.emergentagent.com/job_garden-booking-14/artifacts/cskk68gi_191974306_1680670398784849_2852996893564701914_n_upscaled.jpg",
     pricePerSqm: 8,
   },
 ];
