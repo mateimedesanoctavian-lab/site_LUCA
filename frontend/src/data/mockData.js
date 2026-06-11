@@ -49,7 +49,7 @@ export const PORTFOLIO = [
     title: "Gazon artificial pe pantă cu sistem irigații",
     location: "Reședință privată, Cluj",
     surface: 280,
-    before: "https://customer-assets.emergentagent.com/job_garden-booking-14/artifacts/1hyv5oh7_WhatsApp%20Image%202026-06-11%20at%2021.04.18.jpeg",
+    before: "https://customer-assets.emergentagent.com/job_garden-booking-14/artifacts/zld98nfh_WhatsApp%20Image%202026-06-11%20at%2021.04.20.jpeg",
     after: "https://customer-assets.emergentagent.com/job_garden-booking-14/artifacts/74f3dxbj_WhatsApp%20Image%202026-06-11%20at%2021.04.17.jpeg",
   },
   {
@@ -58,7 +58,7 @@ export const PORTFOLIO = [
     location: "Curte privată, Sibiu",
     surface: 420,
     before: "https://customer-assets.emergentagent.com/job_garden-booking-14/artifacts/k7331kkm_WhatsApp%20Image%202026-06-11%20at%2021.04.19.jpeg",
-    after: "https://customer-assets.emergentagent.com/job_garden-booking-14/artifacts/zld98nfh_WhatsApp%20Image%202026-06-11%20at%2021.04.20.jpeg",
+    after: "https://customer-assets.emergentagent.com/job_garden-booking-14/artifacts/1hyv5oh7_WhatsApp%20Image%202026-06-11%20at%2021.04.18.jpeg",
   },
 ];
 
